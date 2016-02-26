@@ -1,0 +1,1 @@
+mapproxy-util create -t wsgi-app -f mapproxy.yaml mapproxy-prod-config.py
