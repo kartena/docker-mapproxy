@@ -8,8 +8,8 @@ RUN apt-get -y update
 RUN apt-get install -y \
 	python-imaging \
 	python-yaml \
-	libproj0 \
 	libgeos-dev \
+	libproj0 \
 	python-lxml \
 	libgdal-dev \
 	build-essential \
@@ -18,7 +18,7 @@ RUN apt-get install -y \
 	zlib1g-dev \
 	libfreetype6-dev
 
-RUN pip install Pillow Shaply MapProxy Gunicorn
+RUN pip install Pillow Shapely MapProxy Gunicorn
 
 EXPOSE 8080
 
